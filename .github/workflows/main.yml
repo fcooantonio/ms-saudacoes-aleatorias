@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_USER: zozores99
-  DOCKER_IMAGE_NAME: ${{ vars.DOCKER_USER || 'zozores99' }}/ms-saudacoes-aleatorias
+  DOCKER_USER: fcooantonio
+  DOCKER_IMAGE_NAME: ${{ vars.DOCKER_USER || 'fcooantonio' }}/ms-saudacoes-aleatorias
   DOCKER_IMAGE_TAG: 1.0.${{ github.run_id }}
   SERVICE_NAME: saudacoes-aleatorias
 
